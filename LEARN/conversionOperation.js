@@ -32,4 +32,42 @@ let valueInString = String(someNumber)
 
 let value = 3
 let negvalue = -value
+//console.log(negvalue);
+
+/*
+console.log(2+2); addition
+console.log(2-2); subtraction
+console.log(2*3); multiplication
+console.log(2**3); power
+console.log(2/2); division
+console.log(2%2); remainder
+*/
+
+let str1 = "Hello"
+let str2 = "World"
+let str3 = str1 + str2
+console.log(str3);
+
+
+console.log("1" + 2); //12
+console.log(1 + "2"); //12
+console.log("1" + 2 + 2);//122
+console.log(1 + 2 + "2");//32
+//add paranthesis for operations to organize and make code better
+
+console.log(true) //true
+console.log(+true); //1
+console.log(+""); //0
+
+//can define multiple variables:
+let num1, num2, num3 = 2
+
+let gameCounter  = 100
+gameCounter++;//can also use ++gamecounter //dont do gameCounter = gameCounter++ (dosent work)
+console.log(gameCounter);
+//there is diff bw ++a and a++
+
+
+
+
 
